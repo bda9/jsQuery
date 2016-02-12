@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>TO DO LIST - Andelin</title>
+	<link rel="stylesheet" href="app/styles/master.css" media="screen" title="no title" charset="utf-8">
+</head>
+
+<body>
+	<main>
+		<h2>Todo List</h2>
+		<form id="newTaskForm">
+			<label for="">New Item</label>
+			<input id="newItemInput" type="text" placeholder="Add an item..." />
+			<button id="saveNewItem">Add</button>
+			<button id="cancel">Cancel</button>
+		</form>
+		<div id="newList">
+        New List Item
+    </div>
+		<div class="panel">
+		  In Progress
+		  <ul class="list-group" id="currentList"></ul>
+		</div>
+		<div class="panel">
+		  Archived
+		  <ul class="list-group" id="archivedList"></ul>
+		</div>
+		<div class='new-item-header'>
+			<button href="#" id="newListItem" style="">New To-Do List Item</button>
+		</div>
+
+	</main>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="app/scripts/app.js"></script>
+</body>
+
+</html>
